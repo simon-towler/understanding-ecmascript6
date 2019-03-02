@@ -6,7 +6,7 @@ function process(item) {
 for (var i=0; i<10; i++) {
 	process(items[i]);
 
-	console.log(i);
+	console.log(i); // 0-9
 }
 
 //i is still accessible here
