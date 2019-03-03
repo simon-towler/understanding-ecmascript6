@@ -5,7 +5,7 @@ var funcs = [],
 		c:true
 	};
 
-for (let key in object) {
+for (const key in object) {
 	funcs.push(function() {
 		console.log(key);
 	});
