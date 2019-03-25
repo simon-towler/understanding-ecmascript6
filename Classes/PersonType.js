@@ -1,11 +1,11 @@
 //custom type
 
-//constructor function
+//constructor function (creates 'name' property)
 function PersonType(name) {
 	this.name = name;
 }
 
-//set inheritable method
+//set inheritable method 'sayName'
 PersonType.prototype.sayName = function() {
 	console.log(this.name);
 }
