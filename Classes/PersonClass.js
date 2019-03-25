@@ -1,6 +1,6 @@
 class PersonClass {
 
-	//equivalent of the PersonType constructor
+	//equivalent of the PersonType constructor function
 	constructor(name) {
 		this.name = name;
 	}
