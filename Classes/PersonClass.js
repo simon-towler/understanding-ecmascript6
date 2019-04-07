@@ -20,3 +20,4 @@ console.log(person instanceof Object); //true
 
 console.log(typeof PersonClass); // "function"
 console.log(typeof PersonClass.prototype.sayName); //"function"
+console.log(PersonClass.name); // "PersonClass"
