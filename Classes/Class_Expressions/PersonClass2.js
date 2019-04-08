@@ -1,3 +1,4 @@
+// Named Class Expression
 let PersonClass = class PersonClass2 {
 
 	//equivalent of the PersonType constructor
@@ -15,7 +16,10 @@ let PersonClass = class PersonClass2 {
 
 console.log(typeof PersonClass); // function
 
-// no binding for PersonClass2 exists outside the class
+// show that no binding for PersonClass2 exists outside the class
 console.log(typeof PersonClass2); // undefined
-// but it is a Class and you can get its Class Name!
-console.log(PersonClass.name); // PersonClass2 !
+// but you can get the name of the class!
+console.log(PersonClass.name); // PersonClass2
+
+let instance = new PersonClass("Simon");
+console.log(instance.name); // "Simon"
